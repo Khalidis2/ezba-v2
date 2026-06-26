@@ -1,2 +1,3 @@
 [tool.vercel]
+[project]
 entrypoint = "api.telegram:app"
