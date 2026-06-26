@@ -1,3 +1,15 @@
-[tool.vercel]
 [project]
+name = "ezba-v2"
+version = "0.1.0"
+description = "Ezba V2 Telegram farm management bot"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "fastapi>=0.115.0",
+  "uvicorn>=0.30.0",
+  "google-auth>=2.30.0",
+  "google-api-python-client>=2.130.0",
+  "requests>=2.32.0"
+]
+
+[tool.vercel]
 entrypoint = "api.telegram:app"
